@@ -1,0 +1,241 @@
+        /*.contenedor{
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+}*/
+        
+        .barraSuperior {
+            width: 100%;
+            height: 10%;
+            background-color: red;
+            flex-direction: row;
+        }
+        
+        .puntos {
+            width: 1.2em;
+            height: 1.2em;
+            margin-left: 79.6em;
+            margin-top: 0.4em;
+            position: absolute;
+        }
+        
+        .puntos:hover {
+            cursor: pointer;
+        }
+        
+        .J {
+            margin-left: 82em;
+            border-radius: 50em;
+            position: absolute;
+        }
+        
+        .J:hover {
+            cursor: pointer;
+        }
+        
+        .gmail {
+            position: absolute;
+            margin-left: 70em;
+            margin-top: 0.6em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .gmail:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        
+        .imagenes {
+            margin-left: 74em;
+            margin-top: 0.6em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .imagenes:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .logo {
+            margin-left: 17em;
+            margin-top: 5em;
+            width: 47%;
+            height: 40%;
+            position: absolute;
+        }
+        
+        .barra {
+            margin-left: 32em;
+            margin-top: 21em;
+            border-radius: 10em;
+            height: 2.5em;
+            width: 42em;
+            position: absolute;
+            border: 1px solid grey;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 40px;
+        }
+        
+        .barra:focus {
+            border: 1px solid blue;
+            outline: none;
+        }
+        
+        .mic {
+            margin-left: 62.5em;
+            margin-top: 18em;
+            height: 1.7em;
+            width: 1.2em;
+            position: relative;
+        }
+        
+        .mic:hover {
+            cursor: pointer;
+        }
+        
+        .lupa {
+            margin-left: -36.2em;
+            margin-top: 18.2em;
+            height: 1.3em;
+            width: 1.2em;
+            transform: scaleX(-1);
+            position: absolute;
+            /*Invertir horizontalmente*/
+            /* position: absolute;*/
+        }
+        
+        .sobreGoogle {
+            margin-left: 0.5em;
+            margin-top: 0.5em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: grey;
+        }
+        
+        .sobreGoogle:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .tienda {
+            margin-top: 0.5em;
+            margin-left: 8em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: grey;
+        }
+        
+        .tienda:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .buscarConGoogle {
+            margin-left: 32em;
+            margin-top: 20.6em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .voyATenerSuerte {
+            margin-left: 45em;
+            margin-top: 20.6em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .ofrecidoPorGoogle {
+            margin-left: 32em;
+            margin-top: 25em;
+            position: absolute;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .barraInferior1 {
+            height: auto;
+            margin-top: 14.9em;
+            background-color: #f2f2f2;
+            position: fixed;
+            width: 100%;
+            margin-left: -6px;
+            border-top: 1px solid grey;
+        }
+        
+        .barraInferior1 p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: grey;
+        }
+        
+        .textoespana {
+            margin-left: 1.5em;
+        }
+        
+        .barraInferior2 {
+            margin-top: 17.8em;
+            background-color: #f2f2f2;
+            position: fixed;
+            width: 100%;
+            margin-left: -6px;
+            height: 100%;
+            border-top: 1px solid grey;
+            padding-top: 15px;
+        }
+        
+        .barraInferior2 a {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: grey;
+            margin-left: 23px;
+        }
+        
+        .barraInferior2 a:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        /*.España {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }*/
+        
+        .textoespana:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .Empresa {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .ofrecidoPorGoogle a {
+            text-decoration: none;
+        }
+        
+        .ofrecidoPorGoogle a:hover {
+            text-decoration: underline;
+        }
+        
+        .derecha {
+            margin-left: 64em;
+            margin-top: -18px;
+        }
+        
+        .botonesForm {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .botonesForm:hover {
+            border: 1px solid grey;
+        }
